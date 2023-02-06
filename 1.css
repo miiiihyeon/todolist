@@ -3,7 +3,8 @@ body {background-color: darkolivegreen;
     color:rgb(238, 234, 154);
 }
 h1 {font-size: 80px;
-     text-align: center;}
+     text-align: center;
+    margin-bottom: 10px;}
 .list{font-size:20px;
   padding: 40px;}
 
@@ -21,3 +22,6 @@ margin-top: 100px;
 }
 #goal {font-size: 25px;
 text-decoration-line: underline;}
+h2{margin-inline-start: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
