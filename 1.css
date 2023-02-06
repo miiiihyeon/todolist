@@ -9,19 +9,49 @@ h1 {font-size: 80px;
   padding: 40px;}
 
 a{text-decoration-line: none;
-color:rgb(238, 234, 154);
+  color:rgb(238, 234, 154);
 border-width:50px;}
 
 #menu {text-align: center;
 font-weight: bold;}
 
-fieldset {float : right;}
-#todolist{border-style: solid;
+#goal {font-size: 25px;
+  text-decoration-line: underline;}
+
+fieldset {float : right;
+margin-right: 200px;}
+
+#todolist{border-style: double;
 border-color: rgb(238, 234, 154);
 margin-top: 100px;
+margin-right : 200px;
+margin-left: 200px;
+border-radius: 20px;
+
 }
-#goal {font-size: 25px;
-text-decoration-line: underline;}
+
 h2{margin-inline-start: 30px;
 margin-top: 10px;
 margin-bottom: 10px;
+}
+
+#memo {border-style: solid;
+  margin-top: 10px;
+  margin-right : 200px;
+  margin-left: 200px;
+  border-color: rgb(238, 234, 154);
+  border-radius: 20px;
+}
+#sayforme {border-style: solid;
+  margin-top: 10px;
+  margin-right : 200px;
+  margin-left: 200px;
+  border-color: rgb(238, 234, 154);
+  border-radius: 20px;
+}
+#memo2 {border-style: solid;
+  margin-top: 10px;
+  margin-right : 200px;
+  margin-left: 200px;
+  border-color: rgb(238, 234, 154);
+  border-radius: 20px;}
