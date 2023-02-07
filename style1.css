@@ -1,0 +1,34 @@
+
+body {background-color: darkolivegreen;
+    color:rgb(238, 234, 154);
+}
+h1 {font-size: 80px;
+     text-align: center;
+    margin-bottom: 10px;
+  }
+
+.list{font-size:20px;
+  padding: 40px;}
+
+a{text-decoration-line: none;
+  color:rgb(238, 234, 154);
+border-width:50px;}
+a:hover{color: darkslategray;}
+
+#menu {text-align: center;
+font-weight: bold;}
+
+#goal {font-size: 25px;
+  text-decoration-line: underline;}
+
+#todolist{font-size: 40px;
+border: 3px;
+text-align: center;}
+ 
+.container{text-align: center;
+ 
+}
+#textInput{inline-size: 300px;
+font-size: 25px;}
+
+
