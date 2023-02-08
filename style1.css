@@ -1,14 +1,18 @@
 
 body {background-color: darkolivegreen;
+  font-family: sans-serif;
+  text-align: center;
     color:rgb(238, 234, 154);
 }
 h1 {font-size: 80px;
      text-align: center;
-    margin-bottom: 10px;
-    margin-right:250px;
-    margin-left:250px;
-   
-  border-style: solid;}
+    display: inline-block;
+    border-width: 10px;
+    border-style: double;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+      }
 
 .list{font-size:20px;
   padding: 40px;}
@@ -19,30 +23,33 @@ border-width:50px;}
 a:hover{color: darkslategray;}
 
 #menu {text-align: center;
-  margin-top : 30px;
+  margin-bottom: 30px;
 font-weight: bold;}
 
 #goal {font-size: 25px;
   text-decoration-line: underline;}
 
 #todolist{font-size: 40px;
-padding:auto;
 text-decoration-line: underline;
 text-align: center;
-margin-top: 10px;}
+margin-top: 30px;}
  
 .container{text-align: center;
   padding:auto;
+  word-wrap: break-word;
  
 }
 #textInput{inline-size: 300px;
-font-size: 25px;}
-
-#listbox{margin:40px 200px auto 200px;
-border-style: dotted;}
-
-h2{margin-top:10px;
-margin-bottom:15px;}
-
-#restore{float: right;
+font-size: 25px;
+caret-color: darkolivegreen;
 }
+
+#listbox{text-align: center;
+  margin:auto;
+border-style: dotted;
+width: 400px;
+height: 400px;}
+
+#restore{bottom: auto;
+right: auto;}
+
