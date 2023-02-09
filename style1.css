@@ -1,6 +1,7 @@
-
+*{font-family:Arial, Helvetica, sans-serif;
+font-weight: bold;}
 body {background-color: darkolivegreen;
-  font-family: sans-serif;
+  
   text-align: center;
     color:rgb(238, 234, 154);
 }
@@ -24,7 +25,7 @@ a:hover{color: darkslategray;}
 
 #menu {text-align: center;
   margin-bottom: 30px;
-font-weight: bold;}
+}
 
 #goal {font-size: 25px;
   text-decoration-line: underline;}
@@ -35,8 +36,11 @@ text-align: center;
 margin-top: 30px;}
  
 .container{text-align: center;
+ width:420px;
+ height: 200px;
   padding:auto;
   word-wrap: break-word;
+  overflow: auto;
  
 }
 #textInput{inline-size: 300px;
@@ -44,12 +48,29 @@ font-size: 25px;
 caret-color: darkolivegreen;
 }
 
-#listbox{text-align: center;
+#listbox{
+
+  text-align: center;
   margin:auto;
 border-style: dotted;
 width: 400px;
-height: 400px;}
+height: 400px;
+}
 
-#restore{bottom: auto;
-right: auto;}
+#restore{
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+background-color: rgb(238, 234, 154);
+border-color: darkgreen;
+border-radius: 20px;
+color:darkolivegreen;
+}
 
+#addButton{
+  background-color: rgb(238, 234, 154);
+border-color: darkgreen;
+border-radius: 5px;
+font-size: 20px;
+color:darkolivegreen;
+}
