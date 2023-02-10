@@ -1,0 +1,35 @@
+* {margin:0px;
+    padding : 0px;}
+ body{background-color: black;
+ color: white;
+ font-family: 'Times New Roman', Times, serif;}
+
+
+h1{text-decoration:underline double 3px;
+text-underline-offset: 10px;
+text-align: center;
+font-size:100px;
+margin-top: 150px;}
+
+a{text-decoration-line: none;
+color: white;
+}
+
+.list :hover{border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+color: white;
+border-radius: 15px;
+padding: 4px;
+}
+
+.menu{font-size:50px;
+  text-align: center;
+  margin-top: 50px;
+  }
+
+.list{margin-top: 10px;
+    transition: all 2s;}
+
+
