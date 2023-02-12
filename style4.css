@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=IBM+Plex+Sans&family=Rubik&display=swap');
+
 * {margin:0px;
-    padding : 0px;}
+    padding : 0px;
+   box-sizing: border-box;}
+    
 
  body{background-color: black;
  color: white;
- font-family: 'Times New Roman', Times, serif;}
+ font-family: 'IBM Plex Sans', sans-serif;
+font-weight: bold;}
 
  h1{text-decoration:underline double 3px;
     text-underline-offset: 10px;
@@ -11,10 +16,64 @@
     font-size:100px;
     margin-top: 100px;}
 
- a{text-decoration-line: none;
-    color: white;
+a{text-decoration-line: none;
+    color: white;}
+    
+.list{font-size: 30px;
+    display: inline-block;
+    padding: 15px 50px 0 50px;
  }
+ .list:hover{
+   transform:translateY(5px);
+text-decoration: underline solid 2px;
+    text-underline-offset: 8px;
+}
+
  #menu {text-align: center;
     margin-bottom: 30px;
   }
   
+  #listbox{
+
+   text-align: center;
+   margin:auto;
+ border-style: dotted;
+ width: 400px;
+ height: 400px;
+ }
+
+ #addButton{
+   background-color: white;
+ border-color: black;
+ border-radius: 5px;
+ font-size: 20px;
+ color:black;
+ }
+ 
+ .container{text-align: center;
+   width:420px;
+   height: 200px;
+    padding:auto;
+    word-wrap: break-word;
+    overflow: auto;
+   
+  }
+  #textInput{inline-size: 300px;
+  font-size: 25px;
+ 
+  }
+  #restore{
+   display: inline-block;
+   width: 50px;
+   height: 25px;
+ background-color: black;
+ border-color: white;
+ border-radius: 20px;
+ color:white;
+ }
+ 
+ #first{font-size: 16px;
+   border-color: white;
+   background-color: black;
+   border-radius: 5px;}
+   

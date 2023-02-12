@@ -68,11 +68,11 @@ color:darkolivegreen;
 }
 
 #addButton{
-  background-color: rgb(238, 234, 154);
-border-color: darkgreen;
+  background-color: white;
+border-color: black;
 border-radius: 5px;
 font-size: 20px;
-color:darkolivegreen;
+color:white;
 }
 
 
