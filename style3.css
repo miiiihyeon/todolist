@@ -4,6 +4,11 @@
     padding : 0px;
    box-sizing: border-box;}
     
+   @media (prefers-reduced-motion){
+    .list:hover{
+      transform: none;
+    }
+  }
 
  body{background-color: black;
  color: white;

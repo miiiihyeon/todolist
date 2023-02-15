@@ -20,6 +20,12 @@ h1{text-decoration:underline double 3px;
     a{text-decoration-line: none;
         color: white;}
 
+        @media (prefers-reduced-motion){
+            .list:hover{
+              transform: none;
+            }
+          }
+
 .loginbox{
     display: inline-block;
     position: absolute;

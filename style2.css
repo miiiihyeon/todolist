@@ -40,3 +40,8 @@ padding: 4px;
       background-color: black;
       border-radius: 5px;}
       
+      @media (prefers-reduced-motion){
+        .list:hover{
+          transform: none;
+        }
+      }
